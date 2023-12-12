@@ -8,7 +8,7 @@ public class single_diamensions_arrays {
 			a[1]=20;
 			a[2]=30;
 			a[3]=40;
-			a[4]=50;
+			a[4]=70;
 		int l1=a.length;
 		for(int i=0;i<l1; i++)
 			{

@@ -6,7 +6,7 @@ public class A_to_Z_print {
 		
 		for(char i='a'; i<='z'; i++) // for print the capital a to z
 		{
-		System.out.print(" "+i);
+		System.out.print("  "+i);
 		}
 		
 		System.out.println("  ");
