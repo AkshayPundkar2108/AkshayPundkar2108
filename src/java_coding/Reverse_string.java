@@ -9,17 +9,17 @@ public class Reverse_string {
 		
 		String s = "Akshay Ajay Pundkar";
 		for (int i=s.length()-1;i>=0;i--) {
-			System.out.print(s.charAt(i));
+			System.out.println(s.charAt(i));
 		}
 		
-		System.out.println("   **************");
-		
-		 // string print by chart wise print
-		String s1 = "akshay ajay pundkar";
-		for (int i=0; i<s1.length();i++)
-		{
-			System.out.print(s1.charAt(i));
-		}
+//		System.out.print("   **************");
+//		
+//		 // string print by chart wise print
+//		String s1 = "akshay ajay pundkar";
+//		for (int i=0; i<s1.length();i++)
+//		{
+//			System.out.print(s1.charAt(i));
+//		}
 		
 		
 	}
