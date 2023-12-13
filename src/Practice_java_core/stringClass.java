@@ -20,7 +20,7 @@ public class stringClass {
 		System.out.println(surname.toLowerCase());// showing the string is in Lower case of the alphabatical :- pundkar
 		System.out.println(surname.toUpperCase());;// showing the string is in Upper case of the alphabatical  :- PUNDKAR
 		 String array [] = FullName.split(" "); // spliting the two word in one string into the two string  by space 
-		 										// Its generate two array index like array [0]= akshay and array [1] = Pundkar 
+		 										// Itis generate two array index like array [0]= akshay and array [1] = Pundkar 
 		System.out.println(array[0]);	// Print :- AKSHAY
 		System.out.println(array[1]); 	// Print :- PUNDKAR
 		
