@@ -13,6 +13,7 @@ public class TraficRule implements foreignTrafic {
 		tr.yellowSlow();
 		TraficRule tr1 = new TraficRule();
 		 tr1.stop();
+		 
 		System.out.println(tr.num);
 	}
 

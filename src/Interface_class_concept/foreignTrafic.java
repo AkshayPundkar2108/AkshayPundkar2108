@@ -5,7 +5,7 @@ public interface foreignTrafic {
 	public void greeGo();
 	public void redStop();
 	public void yellowSlow();
-	int num = 12345;
+	public int num = 12345;
 	
 	
 	
