@@ -4,7 +4,7 @@ public class Static_variable {
 		// the below variable is global variable /instance variable	
 		String name ;
 		String address ;
-		String city;
+		static String city;
 		
 		 public Static_variable(String name,String address,String city)// this variable is only local vriable)
 		{
@@ -28,12 +28,21 @@ public class Static_variable {
 		 {
 			 System.out.println("Mydata");
 		 }
+		 
+		 public void lala()
+		 {
+			 System.out.println(this.city);
+		 }
+		 
 		public static void main(String[]args) {
 			Static_variable obj= new Static_variable("akshay","Yerwada","Pune");
 			 	obj.getname();
 			 	obj.getaddress();
 			 	obj.getcity();
+			 	obj.lala();
 			 	Static_variable.getdata();
+			 System.out.println(Static_variable.city);
+			 	
 		}
 		
 		
