@@ -18,17 +18,25 @@ public class removedDuplicate_byCollectionFrameworks {
 				}
 			}
 		System.out.println(max);
-//		ArrayList<Integer> al=new ArrayList<Integer>();
-//		HashMap<Integer, Integer> countMap = new HashMap<Integer, Integer>();
-//        	for (int num : a) 
-//        	{
-//        		countMap.put(num, countMap.getOrDefault(num, 0) + 1);
-//        	}	
-//        	for (int i = 1; i <= max; i++) 
-//        	{
-//        		System.out.print(i + "=" + countMap.getOrDefault(i, 0) + ", ");
-//        	}
-//		
+		ArrayList<Integer> al=new ArrayList<Integer>();
+		HashMap<Integer, Integer> countMap = new HashMap<Integer, Integer>();
+        	for (int num : a) 
+        	{
+        		countMap.put(num, countMap.getOrDefault(num, 0) + 1);
+        	}	
+        	for (int i = 1; i <= max; i++) 
+        	{
+        		System.out.print(i + "=" + countMap.getOrDefault(i, 0) + ", ");
+        	}
+		
 	}
 
 }
+
+
+
+   
+
+
+	
+	
