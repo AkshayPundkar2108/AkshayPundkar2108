@@ -1,6 +1,6 @@
 package Interview_Program;
 
-public class applied_AI_company {
+public class company2_applied_AI {
 
 	// ptint the max num from any integer array
 //=========================================================================================================================================		
@@ -30,8 +30,8 @@ public class applied_AI_company {
 //=========================================================================================================================================		
 	public void print_repeated_value_from_String()
 	{// output required like ay=3
-		String a="AkshayAkshayAkshay";
-		String substringToFind ="ay";
+		String a="Akshay Akshay Akshay ram";
+		String substringToFind ="a";
 		int index=a.indexOf(substringToFind);
 		int count=0; 
 		while (index!=-1)
@@ -45,7 +45,7 @@ public class applied_AI_company {
 //=========================================================================================================================================
 	public static void main(String[] args) 
 	{ 
-		applied_AI_company ob= new applied_AI_company();
+		company2_applied_AI ob= new company2_applied_AI();
 		
 //		ob.max_num_from_Int_array();
 //		ob.min_num_From_int_array();

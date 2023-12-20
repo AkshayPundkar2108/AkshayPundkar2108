@@ -610,7 +610,57 @@ System.out.println(hmap);
 			 System.out.println("this is not palindrom");
 		 }
 	 }
-	 
+	 void eqachWordCount()
+		{
+			String s="i am learning learning java java java programming lala lala";
+			int count=1;
+			String str[]=s.split(" ");
+			
+			Map<String,Integer> map=new LinkedHashMap<>();
+			for(int i=0;i<str.length;i++)
+			{
+				if(!map.containsKey(str[i]))
+				{
+					map.put(str[i], count);
+				}
+				else
+				{
+					map.put(str[i], map.get(str[i])+1);
+				}
+			}
+			System.out.println(map);
+		}
+	 void missingNumber()
+	 {
+	 	int a[]= {1,2,4,5};//3 is missing
+	 	int sum=0;
+	 	for(int i=0;i<a.length;i++)
+	 	{
+	 		sum=sum+a[i];
+	 	}
+	 	System.out.println(sum);// 12
+	 	
+	 	int sum1=0;
+	 	for(int j=1;j<=5;j++)
+	 	{
+	 		sum1=sum1+j;
+	 	}
+	 	
+	 	System.out.println(sum1);//15
+	 	
+	 	System.out.println("missing number is ="+ (sum1-sum));
+	 }
+	 void removeSpecialcharacter()
+	 {
+	 	//just keep the number and alpha value 
+	 	
+	 	String s="#@%$&*## lala seth 1992";
+	 	
+	 	// regular  expression    "[^a-zA-Z0-0-9]"
+	 	
+	 	s=s.replaceAll("[^a-zA-Z0-9]", " ");
+	 	System.out.println(s.trim());
+	 }
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
