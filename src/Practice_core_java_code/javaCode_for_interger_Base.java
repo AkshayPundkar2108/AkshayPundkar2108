@@ -142,16 +142,31 @@ public class javaCode_for_interger_Base {
 			
 		void print_even_and_odd_number()
 		{
-			int a=10;
+			int a=11;
 			if(a%2==0)
 			{
-				System.out.println("input is even");
+				System.out.println(a+" = is even number");
 			}
 			else
 			{
-				System.out.println("input is odd");
+				System.out.println(a+" = is odd number");
 			}
 		}
+		
+		void print_fibbonacie_Series()
+			{
+			int a=0;
+			int b=1;
+			int sum=0;
+			for(int i=2; i<10; i++)
+			{
+			sum=a+b;
+			a=b;
+			b=sum;
+			System.out.println(sum);
+			}
+			}
+		
 		
 	public static void main(String[] args) {
 		javaCode_for_interger_Base obj = new javaCode_for_interger_Base();

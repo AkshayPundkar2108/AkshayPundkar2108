@@ -20,9 +20,10 @@ public class all_java_code {
 		System.out.println(a + " " + b);
 		for (int i = 2; i < 10; i++) {
 			sum = a + b;
-			System.out.println(sum);
 			a = b;
 			b = sum;
+			System.out.println(sum);
+			
 		}
 	}
 
@@ -650,22 +651,12 @@ System.out.println(hmap);
 	 	
 	 	System.out.println("missing number is ="+ (sum1-sum));
 	 }
-	 void removeSpecialcharacter()
-	 {
-	 	//just keep the number and alpha value 
-	 	
-	 	String s="#@%$&*## lala seth 1992";
-	 	
-	 	// regular  expression    "[^a-zA-Z0-0-9]"
-	 	
-	 	s=s.replaceAll("[^a-zA-Z0-9]", " ");
-	 	System.out.println(s.trim());
-	 }
+
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		all_java_code obj = new all_java_code();
-		obj.additionArray();
+		obj.fibbonacieSeries();
 	}
 
 
