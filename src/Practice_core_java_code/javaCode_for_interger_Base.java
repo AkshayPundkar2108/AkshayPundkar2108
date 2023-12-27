@@ -10,6 +10,13 @@ public class javaCode_for_interger_Base {
 				System.out.print(i+",");
 			}
 			}
+		// or //
+		
+		 void print_postive_number_without_loops(int start, int end)
+		 {
+			 if (start<=end);
+			 print_postive_number_without_loops(start+1,end);
+		 }
 		
 		void print_minus_number()
 			{
@@ -101,6 +108,18 @@ public class javaCode_for_interger_Base {
 			}
 			System.out.println("sum of the input digit value is "+result);
 			}
+			// or //
+		 void print_sum_of_the_digit1()
+		 {
+			 int input=12345;
+			 int sum=0;
+			 while(input>0)
+			 {
+				 sum= sum+input%10;
+				 input=input/10;
+			 }
+			 System.out.println(sum);
+		 }
 		
 		void print_the_average_of_number()
 			{
@@ -126,19 +145,15 @@ public class javaCode_for_interger_Base {
 		
 		void print_the_prime_number()
 			{
-				int a=7;		// prime number means when we divide the number by 1 or it self
-				int b=a/2;
+				int a=12;		// prime number means when we divide the number by 1 or it self
 				int result=0;
-				for(int i=0;i<b;i++)
-				{
 				if(a%2==0)
 				{result= result+1;}
-				}
 				if(result==0)
-				{System.out.println("input is prime number");}
+				{System.out.println(a+" input is prime number");}
 				else
-				{System.out.println("input is not prime number" );}
-				}	
+				{System.out.println(a+" input is not prime number");}
+			}
 			
 		void print_even_and_odd_number()
 		{
@@ -167,12 +182,21 @@ public class javaCode_for_interger_Base {
 			}
 			}
 		
-		
+		void print_factorial_value()
+		{
+			int num  =  5;
+			int fact =  1;
+			for(int i=1; i<=num; i++)
+			{
+				fact= fact * i;
+			}
+			System.out.println(fact);
+		}
 	public static void main(String[] args) {
 		javaCode_for_interger_Base obj = new javaCode_for_interger_Base();
 //		obj.print_the_prime_number();
-		obj.print_even_and_odd_number();
-		
+//		obj.print_postive_number_without_loops(0,100);
+		obj.print_factorial_value();
 		
 	}
 
