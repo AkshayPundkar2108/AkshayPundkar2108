@@ -1,7 +1,4 @@
 package Practice_core_java_code;
-
-import Interview_Program.company2_applied_AI;
-
 public class javaCode_for_String_Basic {
 
 	void print_remove_any_charcter_from_String() {
