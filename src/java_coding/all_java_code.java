@@ -572,7 +572,7 @@ public class all_java_code {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		all_java_code obj = new all_java_code();
-		obj.forwaordNumberbywhileloop();
+		obj.stringvalueIntoInteger();
 	}
 
 }

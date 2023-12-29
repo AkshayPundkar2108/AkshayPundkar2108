@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class Palindrome_number_and_string {
 
+	
+	
+	
+	
+	
 	public static void main(String[] args) {
 		
 		         
@@ -11,8 +16,9 @@ public class Palindrome_number_and_string {
 		      Scanner sc = new Scanner(System.in); 
 		      String original = sc.nextLine();   
 		      int length = original.length();   
+//			  String  original="madam";
 		      String  reverse = "";
-		      for ( int i = length - 1; i >= 0; i-- )  
+		      for ( int i = original.length()-1; i >= 0; i-- )  
 		          reverse = reverse + original.charAt(i);  
 		      if (original.equals(reverse))  
 		         System.out.println("Entered string/number is a palindrome.");  

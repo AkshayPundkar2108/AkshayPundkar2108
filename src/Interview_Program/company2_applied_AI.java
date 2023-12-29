@@ -31,7 +31,7 @@ public class company2_applied_AI {
 	public void print_repeated_value_from_String()
 	{// output required like ay=3
 		String a="Akshay Akshay Akshay ram";
-		String substringToFind ="a";
+		String substringToFind ="ay";
 		int index=a.indexOf(substringToFind);
 		int count=0; 
 		while (index!=-1)
