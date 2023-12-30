@@ -165,7 +165,7 @@ public class javaCode_for_interger_Base {
 //*****************************************************************************************************	
 
 	void print_the_prime_number() {
-		int a = 12; // prime number means when we divide the number by 1 or it self
+		int a = 7; // prime number means when we divide the number by 1 or it self
 		int result = 0;
 		if (a % 2 == 0) {
 			result = result + 1;
@@ -192,6 +192,7 @@ public class javaCode_for_interger_Base {
 		int a = 0;
 		int b = 1;
 		int sum = 0;
+		System.out.println(a+" "+b);
 		for (int i = 2; i < 10; i++) {
 			sum = a + b;
 			a = b;
@@ -210,12 +211,13 @@ public class javaCode_for_interger_Base {
 		System.out.println(fact);
 	}
 
+	
 //*****************************************************************************************************	
 
 	public static void main(String[] args) {
 		javaCode_for_interger_Base obj = new javaCode_for_interger_Base();
 
-		obj.print_Number_Reverse();
+		obj.print_the_prime_number();
 
 	}
 }

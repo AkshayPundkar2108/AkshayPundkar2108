@@ -1,4 +1,5 @@
 package Practice_core_java_code;
+
 public class javaCode_for_String_Basic {
 
 	void print_remove_any_charcter_from_String() {
@@ -55,6 +56,21 @@ public class javaCode_for_String_Basic {
 		System.out.println("print the couunt A char: " + count);
 	}
 
+//*****************************************************************************************************	
+
+	void maxword() {
+		String s = "jalaUddin mohd akbr";
+		String str[] = s.split(" ");
+		String maxword = str[0];
+		for (int i = 0; i < str.length; i++) {
+
+			if (str[i].length() > maxword.length()) {
+				maxword = str[i];
+			}
+		}
+		System.out.println(maxword);
+	}
+
 //*****************************************************************************************************
 
 	void print_count_of_words_in_string() {
@@ -77,7 +93,7 @@ public class javaCode_for_String_Basic {
 
 	void remove_first_and_Last_Letter_from_Name() {
 		String s = "yogesh";
-		for (int i = 1; i < s.length() ; i++) {
+		for (int i = 1; i < s.length(); i++) {
 			System.out.println(s.charAt(i));
 		}
 	}
@@ -96,11 +112,10 @@ public class javaCode_for_String_Basic {
 
 //*****************************************************************************************************
 
-	void print_palindrom_string() {		// string
+	void print_palindrom_string() { // string
 		String s = "madam";
 		String t = "";
-		for (int i = s.length() - 1; i >= 0; i--)
-		{
+		for (int i = s.length() - 1; i >= 0; i--) {
 			t = t + s.charAt(i);
 		}
 		System.out.println(t);
@@ -110,22 +125,22 @@ public class javaCode_for_String_Basic {
 
 	}
 
-	void print_palindrome_number()
-	{		
-			int num=454;
-			int sum=0;
-			int result=0;
-			int temp=0; 
-			temp=num;    
-			while(num>0)
-			{  result=num%10;    
-			   sum=(sum*10)+result;    
-			   num=num/10; 	
-			}    
-			if	(temp==sum)    
- 			{System.out.println("palindrome number"); }   
-			else    
-			{System.out.println("not palindrome");}
+	void print_palindrome_number() {
+		int num = 454;
+		int sum = 0;
+		int result = 0;
+		int temp = 0;
+		temp = num;
+		while (num > 0) {
+			result = num % 10;
+			sum = (sum * 10) + result;
+			num = num / 10;
+		}
+		if (temp == sum) {
+			System.out.println("palindrome number");
+		} else {
+			System.out.println("not palindrome");
+		}
 	}
 //*****************************************************************************************************
 
@@ -156,7 +171,7 @@ public class javaCode_for_String_Basic {
 	}
 
 //*****************************************************************************************************
-	
+
 	void giveCountOfUpperAndLowercharFromString() {
 		String s = "AxyZ";
 		int upperchar = 0;
@@ -196,25 +211,23 @@ public class javaCode_for_String_Basic {
 
 //*****************************************************************************************************
 
-	void print_repeated_value_from_String()
-	{// output required like ay=3
-		String a="AkshayAkshayAkshay";
-		String substringToFind ="ay";
-		int index=a.indexOf(substringToFind);
-		int count=0; 
-		while (index!=-1)
-		{
+	void print_repeated_value_from_String() {// output required like ay=3
+		String a = "AkshayAkshayAkshay";
+		String substringToFind = "ay";
+		int index = a.indexOf(substringToFind);
+		int count = 0;
+		while (index != -1) {
 			count++;
-			index=a.indexOf(substringToFind, index +1);
+			index = a.indexOf(substringToFind, index + 1);
 		}
-		System.out.println("ay= "+ count);
+		System.out.println("ay= " + count);
 	}
+
 //*****************************************************************************************************
-	
+
 	public static void main(String[] args) {
 		javaCode_for_String_Basic obj = new javaCode_for_String_Basic();
 		obj.print_trim_and_reverse();
-		
 
 	}
 

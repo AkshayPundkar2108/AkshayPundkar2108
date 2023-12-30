@@ -34,7 +34,7 @@ public class javaCode_for_array_arrayList_map_set_base {
 
 //******************************************************************************************
 
-	void max_num_from_Int_array() {
+	void print_max_num_from_Int_array() {
 		int a[] = { 4, 6, 8, 9, 5 };
 		int max = a[0];
 		for (int i = 0; i < a.length - 1; i++) {
@@ -77,7 +77,6 @@ public class javaCode_for_array_arrayList_map_set_base {
 
 //******************************************************************************************
 
-
 	void print_odd_even_from_array() {
 		int[] a = { 6, 2, 7, 3, 5 };
 
@@ -97,7 +96,7 @@ public class javaCode_for_array_arrayList_map_set_base {
 
 //******************************************************************************************
 
-	void arrayIntoMap() {
+	void print_array_Into_Map() {
 		// convert array into map
 		String[] s = { "yogesh", "ramesh", "tayade" };
 
